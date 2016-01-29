@@ -1,0 +1,49 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0; 
+}
+
+.logo {
+    width: 500px;
+    display: block;
+    margin: auto auto -570px auto;
+    padding-top: 150px;
+}
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    color: #222;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 600px;
+}
+
+.paragraph {
+    font-family: 'Ubuntu', sans-serif;
+    color: #222;
+    font-size: 23px;
+    text-align: center;
+}
+
+.paragraph a {
+  text-decoration: none;
+  z-index: 100000 !important !important !important;
+}
+
+canvas {
+  background: 
+    linear-gradient(
+      hsl(200, 50%, 80%) 0%, 
+      hsl(200, 30%, 95%) 75%)
+  ;
+  display: block;
+}
+
+div {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
